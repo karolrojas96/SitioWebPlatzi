@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/home/amin/Documents/Platzi/Web Apps/SitioWebPlatzi/PlatziWebsite/PlatziWebsite.csproj": {}
+    "C:\\Users\\karol.rojas\\Documents\\platzi\\Web Apps\\SitioWebPlatzi\\PlatziWebsite\\PlatziWebsite.csproj": {}
   },
   "projects": {
-    "/home/amin/Documents/Platzi/Web Apps/SitioWebPlatzi/PlatziWebsite/PlatziWebsite.csproj": {
+    "C:\\Users\\karol.rojas\\Documents\\platzi\\Web Apps\\SitioWebPlatzi\\PlatziWebsite\\PlatziWebsite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/amin/Documents/Platzi/Web Apps/SitioWebPlatzi/PlatziWebsite/PlatziWebsite.csproj",
+        "projectUniqueName": "C:\\Users\\karol.rojas\\Documents\\platzi\\Web Apps\\SitioWebPlatzi\\PlatziWebsite\\PlatziWebsite.csproj",
         "projectName": "PlatziWebsite",
-        "projectPath": "/home/amin/Documents/Platzi/Web Apps/SitioWebPlatzi/PlatziWebsite/PlatziWebsite.csproj",
-        "packagesPath": "/home/amin/.nuget/packages/",
-        "outputPath": "/home/amin/Documents/Platzi/Web Apps/SitioWebPlatzi/PlatziWebsite/obj/",
+        "projectPath": "C:\\Users\\karol.rojas\\Documents\\platzi\\Web Apps\\SitioWebPlatzi\\PlatziWebsite\\PlatziWebsite.csproj",
+        "packagesPath": "C:\\Users\\karol.rojas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karol.rojas\\Documents\\platzi\\Web Apps\\SitioWebPlatzi\\PlatziWebsite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/amin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\karol.rojas\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -40,10 +40,8 @@
         "netcoreapp2.2": {
           "dependencies": {
             "Microsoft.AspNetCore.App": {
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
+              "version": "[2.2.0, )"
             },
             "Microsoft.AspNetCore.Razor.Design": {
               "suppressParent": "All",
@@ -58,10 +56,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
